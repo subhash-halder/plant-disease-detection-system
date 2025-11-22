@@ -19,24 +19,14 @@ leaves within these category
 Run the below command to setup python env
 
 ```bash
-# install miniforge first time to install mamba with this we will be able to use tensorflow gpu
-brew install --cask miniforge
-
 # Create the env 
-mamba create -n tf-gpu python=3.12
+python3 -m venv .venv
 ```
 
 Run the Below command to activate the env
 
 ```bash
-eval "$(mamba shell hook --shell zsh)"
-mamba activate tf-gpu
-```
-
-Command to verify tensorflow installation with GPU
-
-```bash
-python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+source .venv/bin/activate
 ```
 
 ### Tensorflow
@@ -46,5 +36,21 @@ python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU')
 #### install tensorflow
 
 ```bash
-python -m pip install --force-reinstall tensorflow-macos tensorflow-metal
+pip install -r requirement.txt
+```
+
+Command to verify tensorflow installation with GPU
+
+```bash
+python -c "import tensorflow as tf; print(tf.config.list_physical_devices('CPU'))"
+```
+
+Run this command to run the jupyter lab to run the code
+
+```bash
+pip install jupyterlab
+```
+
+```bash
+jupyter lab
 ```

@@ -1,0 +1,25 @@
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+# or use this if checkpoints are in various subdirectories
+**/.ipynb_checkpoints/
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Environment variables and virtual environments
+.env
+venv/
+env/
+# specific to popular tools
+.python-version
+pip-wheel-metadata/
+
+# Editor/IDE-specific files
+.vscode/ # VS Code
+.idea/   # PyCharm/IntelliJ
+*.swp    # vim
+
+# Operating system files
+.DS_Store # macOS
+Thumbs.db # Windows
