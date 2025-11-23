@@ -14,8 +14,9 @@ All required components for MCA project submission have been created:
 ### 1. ✅ Streamlit Web Application
 - **File:** `app.py`
 - **Status:** Complete and functional
+- **Live Demo:** https://subhash-ai.streamlit.app/
 - **Features:** Image upload, real-time prediction, confidence scores, performance visualization
-- **Run:** `streamlit run app.py`
+- **Run Locally:** `streamlit run app.py`
 
 ### 2. ✅ Extended Abstract (3000-5000 words)
 - **File:** `Extended_Abstract_Subhash_Halder.md`
@@ -318,9 +319,10 @@ After submission, prepare for viva voce questions:
 1. ✅ High accuracy (95.57%) exceeding hypothesis (90%)
 2. ✅ Comprehensive coverage (38 diseases, 14 plants)
 3. ✅ Complete end-to-end system (model + web app)
-4. ✅ Well-documented with extensive report
-5. ✅ Original architecture (not just transfer learning)
-6. ✅ Practical applicability demonstrated
+4. ✅ Deployed and accessible online (https://subhash-ai.streamlit.app/)
+5. ✅ Well-documented with extensive report
+6. ✅ Original architecture (not just transfer learning)
+7. ✅ Practical applicability demonstrated
 
 **Key Differentiators:**
 - Custom CNN architecture designed from scratch

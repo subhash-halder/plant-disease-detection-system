@@ -94,7 +94,7 @@ def predict_disease(model, image):
     # Make prediction
     predictions = model.predict(img_array, verbose=0)
     predicted_class = np.argmax(predictions[0])
-    confidence = predictions[0][predicted_class] * 100
+    confidence = float(predictions[0][predicted_class] * 100)
     
     return CLASS_NAMES[predicted_class], confidence, predictions[0]
 
@@ -222,7 +222,7 @@ def show_detection_page(model):
             st.markdown(f"**Confidence:** {confidence:.2f}%")
             
             # Progress bar for confidence
-            st.progress(confidence / 100)
+            st.progress(float(confidence / 100))
             
             # Recommendation
             st.markdown("---")
@@ -478,7 +478,7 @@ def show_about_page():
     
     For questions or collaboration opportunities, please contact:
     - **Student:** Subhash Halder
-    - **Email:** [Your Email]
+    - **Email:** subhash23@amityonline.com
     - **Project Guide:** Ayan Pal, Walmart
     
     ---

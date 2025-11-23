@@ -7,12 +7,15 @@ Machine Learning Specialization | Semester 4, Year 2025
 
 This project implements an automated Plant Disease Detection System using Convolutional Neural Networks (CNN) to classify plant diseases from leaf images. The system achieves **95.57% validation accuracy** across 38 disease categories spanning 14 plant species, with an intuitive web-based interface built using Streamlit.
 
+**🌐 Live Demo:** [https://subhash-ai.streamlit.app/](https://subhash-ai.streamlit.app/)
+
 **Key Achievements:**
 - ✅ Custom CNN architecture with 5 convolutional blocks
 - ✅ 95.57% validation accuracy (exceeding 90% hypothesis threshold)
 - ✅ 98.35% training accuracy with minimal overfitting (2.78% gap)
 - ✅ Real-time web application with confidence scores
 - ✅ Comprehensive coverage: 38 disease categories, 14 plant species
+- ✅ Deployed on Streamlit Cloud for global access
 
 ## Dataset
 
@@ -67,7 +70,9 @@ python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU')
 
 ### 1. Web Application (Streamlit)
 
-Launch the disease detection web application:
+**🌐 Live Demo:** [https://subhash-ai.streamlit.app/](https://subhash-ai.streamlit.app/)
+
+Launch locally:
 
 ```bash
 streamlit run app.py
@@ -271,6 +276,8 @@ This project is developed for academic purposes as part of MCA curriculum at Ami
 **Subhash Halder**  
 MCA Student, Amity University Online  
 Enrollment: A9929724000690(el)
+
+**Live Application:** [https://subhash-ai.streamlit.app/](https://subhash-ai.streamlit.app/)
 
 ---
 

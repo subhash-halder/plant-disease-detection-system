@@ -840,8 +840,8 @@ Streamlit web application abstracts technical complexity, enabling non-technical
 **Comprehensive Visualization:**
 Interactive charts displaying model performance, training history, and prediction details enhance user understanding and trust.
 
-**Deployment Ready:**
-Modular architecture supports various deployment scenarios from local hosting to cloud platforms to mobile applications.
+**Deployed and Accessible:**
+The application is successfully deployed on Streamlit Cloud (https://subhash-ai.streamlit.app/), providing global access without installation requirements. The modular architecture also supports additional deployment scenarios including cloud platforms and mobile applications.
 
 ### 9.2.3 Academic Contributions
 
@@ -973,6 +973,7 @@ Fixed train-validation split rather than k-fold cross-validation, though large v
 ### 9.7.3 Deployment Enhancements
 
 **Cloud Deployment:**
+- ✅ Currently deployed on Streamlit Cloud at https://subhash-ai.streamlit.app/
 - Scalable cloud infrastructure for high traffic
 - Global content delivery for low-latency access
 - Automatic scaling based on demand
@@ -1064,9 +1065,9 @@ The plant disease detection system represents not an endpoint but a milestone in
 
 ## 9.10 Closing Statement
 
-This research successfully achieved its stated objectives of developing an accurate, accessible plant disease detection system using convolutional neural networks. The validation accuracy of 95.57% across 38 disease categories demonstrates CNN effectiveness for fine-grained agricultural image classification. The intuitive web interface makes advanced AI diagnostics accessible to non-technical agricultural professionals. The comprehensive documentation provides both academic contribution and practical guidance for deployment.
+This research successfully achieved its stated objectives of developing an accurate, accessible plant disease detection system using convolutional neural networks. The validation accuracy of 95.57% across 38 disease categories demonstrates CNN effectiveness for fine-grained agricultural image classification. The intuitive web interface makes advanced AI diagnostics accessible to non-technical agricultural professionals. The system is successfully deployed on Streamlit Cloud (https://subhash-ai.streamlit.app/) and operational for global access. The comprehensive documentation provides both academic contribution and practical guidance for deployment.
 
-The system stands ready for field deployment while simultaneously providing a foundation for future enhancements expanding capabilities, improving robustness, and broadening applicability. Through continued research, iterative improvement, and collaborative development, automated plant disease detection can evolve from academic proof-of-concept to indispensable agricultural tool, supporting farmers worldwide in protecting their crops and ensuring food security for future generations.
+The system is already deployed and serving users while simultaneously providing a foundation for future enhancements expanding capabilities, improving robustness, and broadening applicability. Through continued research, iterative improvement, and collaborative development, automated plant disease detection can evolve from academic proof-of-concept to indispensable agricultural tool, supporting farmers worldwide in protecting their crops and ensuring food security for future generations.
 
 ---
 
