@@ -15,6 +15,7 @@ All required components for MCA project submission have been created:
 - **File:** `app.py`
 - **Status:** Complete and functional
 - **Live Demo:** https://subhash-ai.streamlit.app/
+- **GitHub:** https://github.com/subhash-halder/plant-disease-detection-system
 - **Features:** Image upload, real-time prediction, confidence scores, performance visualization
 - **Run Locally:** `streamlit run app.py`
 
@@ -310,6 +311,10 @@ After submission, prepare for viva voce questions:
 - Institution: Amity University Online
 - Program: MCA (Machine Learning Specialization)
 - Semester: 4, Year 2025
+
+**Project Links:**
+- Live Application: https://subhash-ai.streamlit.app/
+- GitHub Repository: https://github.com/subhash-halder/plant-disease-detection-system
 
 ---
 

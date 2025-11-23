@@ -4,6 +4,8 @@
 
 **URL:** [https://subhash-ai.streamlit.app/](https://subhash-ai.streamlit.app/)
 
+**GitHub Repository:** [https://github.com/subhash-halder/plant-disease-detection-system](https://github.com/subhash-halder/plant-disease-detection-system)
+
 **Status:** ✅ Live and Operational
 
 ---
@@ -248,9 +250,10 @@ This application is part of an MCA project submission to Amity University Online
 ## Quick Links
 
 - 🌐 **Live Application:** https://subhash-ai.streamlit.app/
+- 📂 **GitHub Repository:** https://github.com/subhash-halder/plant-disease-detection-system
 - 📚 **Documentation:** See README.md
 - 📊 **Project Report:** See project report documents
-- 💻 **Source Code:** GitHub repository
+- 💻 **Source Code:** Available on GitHub
 
 ---
 

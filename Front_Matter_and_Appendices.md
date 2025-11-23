@@ -473,7 +473,7 @@ streamlit run app.py
 
 1. **Clone Repository:**
 ```bash
-git clone <repository-url>
+git clone https://github.com/subhash-halder/plant-disease-detection-system
 cd plant-disease-detection-system
 ```
 

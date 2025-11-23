@@ -7,7 +7,8 @@ Machine Learning Specialization | Semester 4, Year 2025
 
 This project implements an automated Plant Disease Detection System using Convolutional Neural Networks (CNN) to classify plant diseases from leaf images. The system achieves **95.57% validation accuracy** across 38 disease categories spanning 14 plant species, with an intuitive web-based interface built using Streamlit.
 
-**🌐 Live Demo:** [https://subhash-ai.streamlit.app/](https://subhash-ai.streamlit.app/)
+**🌐 Live Demo:** [https://subhash-ai.streamlit.app/](https://subhash-ai.streamlit.app/)  
+**📂 GitHub Repository:** [https://github.com/subhash-halder/plant-disease-detection-system](https://github.com/subhash-halder/plant-disease-detection-system)
 
 **Key Achievements:**
 - ✅ Custom CNN architecture with 5 convolutional blocks
@@ -277,7 +278,8 @@ This project is developed for academic purposes as part of MCA curriculum at Ami
 MCA Student, Amity University Online  
 Enrollment: A9929724000690(el)
 
-**Live Application:** [https://subhash-ai.streamlit.app/](https://subhash-ai.streamlit.app/)
+**Live Application:** [https://subhash-ai.streamlit.app/](https://subhash-ai.streamlit.app/)  
+**GitHub Repository:** [https://github.com/subhash-halder/plant-disease-detection-system](https://github.com/subhash-halder/plant-disease-detection-system)
 
 ---
 

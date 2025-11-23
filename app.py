@@ -480,6 +480,7 @@ def show_about_page():
     - **Student:** Subhash Halder
     - **Email:** subhash23@amityonline.com
     - **Project Guide:** Ayan Pal, Walmart
+    - **GitHub:** [https://github.com/subhash-halder/plant-disease-detection-system](https://github.com/subhash-halder/plant-disease-detection-system)
     
     ---
     
