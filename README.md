@@ -19,14 +19,18 @@ leaves within these category
 Run the below command to setup python env
 
 ```bash
+# install miniforge first time to install mamba with this we will be able to use tensorflow gpu
+brew install --cask miniforge
+
 # Create the env 
-python3 -m venv .venv
+mamba create -n tf-gpu python=3.12
 ```
 
 Run the Below command to activate the env
 
 ```bash
-source .venv/bin/activate
+eval "$(mamba shell hook --shell zsh)"
+mamba activate tf-gpu
 ```
 
 ### Tensorflow
@@ -36,21 +40,25 @@ source .venv/bin/activate
 #### install tensorflow
 
 ```bash
-pip install -r requirement.txt
+python -m pip install -r requirement.txt
 ```
 
 Command to verify tensorflow installation with GPU
 
 ```bash
-python -c "import tensorflow as tf; print(tf.config.list_physical_devices('CPU'))"
+python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 ```
 
 Run this command to run the jupyter lab to run the code
 
 ```bash
-pip install jupyterlab
-```
-
-```bash
 jupyter lab
 ```
+
+## Project Details
+
+### Convolutional Neural Networks
+
+[Standford cheat sheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
+
+
